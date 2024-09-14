@@ -6,15 +6,15 @@ public class User {
     private String email;
     private String sex;
 
-    public User(String name) {
+    public User(String name, int age, String email, String sex) {
         this.name = name;
         this.age = age;
         this.email = email;
-        this.sex =sex;
+        this.sex = sex;
 
     }
 
-    public String getName() {
+        public String getName() {
         return name;
     }
 
